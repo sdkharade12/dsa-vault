@@ -65,7 +65,7 @@ class SinglyLinkedList{
         }
 
         // Deletes the first occurrence of the specified node safely
-        void deletelLL(int value){
+        void deleteLL(int value){
             if(head == nullptr) return; // Edge case: Empty list
 
             // Edge case 1 -> If the node to be deleted is the first node
@@ -110,7 +110,7 @@ int main(){
     obj.insertAtEnd(30);
     obj.insertAtBeg(5);
     obj.insertAtMid(15, 20);
-    obj.deletelLL(30);
+    obj.deleteLL(30);
     
     obj.printLL();
 
